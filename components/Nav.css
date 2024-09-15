@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,500&family=Poppins:wght@500&display=swap');
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 41px 201px 0px 177px;
+}
+.nav-link a {
+  text-decoration: none;
+  color: #666;
+  padding-right: 67px;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+img {
+  padding-left: 5px;
+}

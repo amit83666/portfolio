@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400;9..40,500&family=Poppins:wght@500;700&display=swap");
+.project-page {
+  color: var(--Solid-Heading, #42446e);
+  font-family: Poppins;
+  line-height: 26px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 180px;
+  margin-top: 120px;
+}
+.project-page h2 {
+  font-size: 48px;
+}
+.project-page p {
+  font-weight: 400;
+  font-size: 20px;
+}

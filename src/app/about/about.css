@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400;9..40,500&family=Poppins:wght@500;700&display=swap");
+.about-page {
+  margin: 124px 687px 150px 177px;
+  width: 708px;
+}
+.about-page h2 {
+  color: #42446e;
+  font-family: Poppins;
+  font-size: 42px;
+  line-height: 52px; /* 123.81% */
+  letter-spacing: -0.4px;
+}
+.about-page p {
+  color: var(--dark-content, #666);
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 26px;
+}
+.work-experience {
+  display: flex;
+  flex-flow: column wrap;
+}
+h3 {
+  color: var(--dark-content, #666);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  letter-spacing: 1px;
+}
+.job-title {
+  display: flex;
+  justify-content: space-between;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+}
+.project-title p {
+  color: var(--light-Content, #a7a7a7);
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+button{
+width: 84px;
+height: 24px;
+flex-shrink: 0;
+border-radius: 100px;
+background-color: #D7FFE0;
+color:#018C0F ;
+border: none;
+}

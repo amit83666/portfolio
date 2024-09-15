@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Poppins:wght@700&display=swap");
+.container {
+  width: 1480px;
+  margin: 0 auto;
+ }
+.banner{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 220px 201px 246px 177px ;
+}
+.banner-text {
+  height: fit-content;
+  color: var(--Solid-Heading, #42446e);
+  font-size: 58px;
+  line-height: 70px;
+  letter-spacing: -1px;
+  font-family: poppins;
+}
+/* .banner-pic img{
+  object-fit: cover;
+  width: 349px;
+  border-radius: 230px;
+} */
+.amit-kumar {
+  background: var(
+    --Gradient-Heading,
+    linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  color: #42446e;
+  align-items: center;
+  font-family: Poppins;
+  line-height: 26px; 
+}
+.title h2 {
+  font-size: 48px;
+  /* margin-top: 348px; */
+  margin-bottom: 49px;
+}
+.title p {
+  font-weight: 400;
+  font-size: 32px;
+}

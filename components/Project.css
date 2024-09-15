@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,500&family=Poppins:wght@500&display=swap');
+.model-row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.model {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  width: 373px;
+  height: 567px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+}
+.model img {
+  height: 260px;
+  width: 375px;
+  object-fit: cover;
+  padding: 0px;
+  border-radius: 20px 20px 0px 0px;
+}
+.model h2 {
+  margin: 27px 45px 0px 28px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #000;
+}
+.model p {
+  width: 314px;
+  margin: 17px 31px 0px 28px;
+}
+.project-link {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 21px 53px 25px 28px;
+  gap: 48px;
+}
+.project-link-row {
+  display: flex;
+  gap: 10px;
+}
+.project-link-row img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400;9..40,500&family=Poppins:wght@500&display=swap');
+.footer{
+    margin: 93px  209px 60px 180px;
+}
+.footer-contact-detatils{
+    display: flex;
+}
+.contact-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 416px;
+}
+.contact-links .num p{
+     padding-right: 63px;
+    text-align: center;
+}
+.pages-limks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.line-separate hr{
+    margin-top: 9px;
+}
+.nav-link a {
+    text-decoration: none;
+    color: var(--Solid-Heading, #42446E);
+    padding-right: 52px;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  
