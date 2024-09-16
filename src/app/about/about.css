@@ -45,6 +45,10 @@ h3 {
   line-height: 28px;
   letter-spacing: 1px;
 }
+.project-title p img{
+  display: inline-block;
+  vertical-align: middle; 
+}
 button{
 width: 84px;
 height: 24px;
